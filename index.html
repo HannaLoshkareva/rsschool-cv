@@ -1,10 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon/hl-favicon_black.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
 </head>
-<body>
+
+<body> 
+
+    <header id="home" class="header">
+        <nav class="nav-bar">
+            <span class="decoration"></span>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li> 
+                <li><a href="#interests">Interests</a></li>                    
+                <li><a href="#languages">Languages</a></li>           
+                <li><a href="#code">Code</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </nav>        
+
+        <div class="avatar">            
+            <img src="assets/Hanna_photo.jpg" alt="Hanna's photo">           
+            <div class="name">
+                <h1>Hanna Lashkarova</h1>
+                <p>Junior Frontend Developer</з>
+            </div>
+        </div>       
+    </header>
+    
+    <main class="main">
+
+        <div class="container left">
+
+            <section id="contacts" class="contacts">
+                <h2>Contacts</h2>
+                <ul style="list-style-type:none;">
+                    <li><i class="fa fa-phone"></i><a href="tel:+37063889388">+37063889388</a></li>
+                    <li><i class="fa fa-envelope"></i><a href="mailto:ann.loshkareva@gmail.com">ann.loshkareva@gmail.com</a></li>
+                    <li><i class="fa fa-telegram"></i>@Hanna_LF</li>
+                    <li><i class="fa fa-github-alt"></i><a href="https://github.com/HannaLoshkareva" target="_blank">GitHub</a></li>                    
+                </ul>                
+            </section>           
+
+            <section id="education" class="education">
+                <h2>Education</h2>                 
+                    <div class="education-content">
+                        <h4><span class="material-icons">laptop_windows</span>IT Academy (2018)</h4>
+                        <p>HTML, CSS и JavaScript</p>
+                        <div class="final-project">
+                            <a href="https://github.com/HannaLoshkareva/AI_project" target="_blank" title="AI project (GitHub repository)"><b>The final project on GitHub</b></a>
+                            <a href="https://hannaloshkareva.github.io/AI_project/index.html" target="_blank" title="AI project (HTML version)">
+                                <img class="final-project-image" src="assets/final_course_project.png" alt="Final project">
+                            </a>
+                        </div>
+                    </div>                    
+                    
+                    <div class="education-content">
+                        <h4><span class="material-icons">laptop_windows</span>IT Academy (2016)</h4>
+                        <p>Software Testing Engineer</p>
+                    </div>           
+                      
+                    <div class="education-content">
+                        <h4><span class="material-icons">school</span> Belarusian state university of culture (2011)</h4>
+                        <p>Librarianship and bibliography. Management</p>
+                    </div>                                                 
+            </section>
+
+            <section id="languages" class="languages">
+                <h2>Languages</h2>
+                <ul class="languages-list" style="list-style-type:square;">
+                    <li><b>Belarusian</b> - native speaker</li>
+                    <li><b>Russian</b> - native speaker</li>
+                    <li><b>English</b> - A2 (B1 in process...)</li>
+                    <li><b>Lithuanian</b> - A1</li>
+                </ul>               
+            </section>
+
+            <section id="interests" class="interests">
+                <h2>Interests</h2>
+                <div class="interest-icons">              
+                    <div class="tooltip"><i class="fa fa-plane" style="font-size:32px;"></i><span class="tooltiptext">Travel</span></div>
+                    <div class="tooltip"><i class="fa fa-gamepad" style="font-size:32px;"></i><span class="tooltiptext">Games</span></div>
+                    <div class="tooltip"><i class="fa fa-fort-awesome" style="font-size:32px;"></i><span class="tooltiptext">Boardgames</span></div>
+                    <div class="tooltip"><i class="fa fa-birthday-cake" style="font-size:32px;"></i><span class="tooltiptext">Cooking</span></div>
+                    <div class="tooltip"><i class="fa fa-paw" style="font-size:32px;"></i><span class="tooltiptext">Cats</span></div>
+                </div>               
+            </section>
+        </div>
+
+        <div class="container right">
+
+            <section id="about" class="about">                
+                <h2>About me</h2>
+                <div>Back in 2011, I received a librarian education, but I did not intend to be a librarian.<br>
+                    I started studying web development back in 2017, but I didn’t have enough skills (first of all, knowledge of English) to enter the profession.<br>
+                    Since then, I have been moving, albeit not very quickly, towards my goal of becoming a Frontend developer.<br>
+                    I like to work in a team, I find solutions for unsolvable (at first glance) tasks, I'm not afraid of difficulties, but I like to whine.<br>
+                    I believe that a person can learn everything if he really wants it.</div>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Skills</h2>                 
+                <ul class="skills-list">
+                    <li class="skill-type ">HTML5, CSS3 (BEM methodology)
+                        <div class="skills-stars html">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>
+                    </li>
+
+                    <li class="skill-type">JavaScript (Basic)
+                        <div class="skills-stars js">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                            <span class="material-icons">star_outline</span>
+                            <span class="material-icons">star_outline</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>                        
+                    </li>
+
+                    <li class="skill-type">Git/GitHub
+                        <div class="skills-stars git">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>
+                    </li>
+
+                    <li class="skill-type">Photoshop
+                        <div class="skills-stars photoshop">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>
+                    </li>
+
+                    <li class="skill-type">Windows OS, Linux (Ubuntu)
+                        <div class="skills-stars os">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>
+                    </li>
+
+                    <li class="skill-type">Editors: SublimeText, Atom, VSCode
+                        <div class="skills-stars editors">
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star</span>
+                            <span class="material-icons">star_outline</span>
+                        </div>
+                    </li>
+                </ul>                
+            </section>
+
+            <section id="code" class="code">
+                <h2>Code example</h2>                
+                    <pre class="code-example">
+                        <code>
+                            function colourAssociation(array){
+                            let newArr = [];
+                            for (let i = 0; i&lt;array.length; i++){
+                                let smallArray = array[i];
+                                let obj = {};
+                                obj[smallArray[0]] = smallArray[1];        
+                                newArr.push(obj);
+                            }
+                        return newArr;
+                        };
+                        </code>
+                    </pre>                
+            </section>            
+        </div>
+        
+    </main>
+    
+    <footer class="footer">
+        <div class="year-create">Created in 2024</div>
+        <div class="footer-logo">
+            <div class="git-link"> 
+                <a href="https://github.com/HannaLoshkareva" target="_blank" title="Hanna's GitHub repository">
+                    <img src="assets/logo/github_logo.svg" alt="GitHub-logo">
+                </a>
+            </div>
+
+            <div class="rs-course">            
+                <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank" title="Курс «JavaScript/Front-end»">
+                    <img src="assets/logo/rs_school_js.svg" alt="RSschool-logo">
+             </a>
+            </div>
+        </div>               
+    </footer>
+    
 </body>
 </html>
