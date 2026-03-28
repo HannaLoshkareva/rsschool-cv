@@ -1,4 +1,5 @@
 # Hanna Loshkareva
+![Hanna](assets/Hanna_photo.jpg)
 
 ---
 
