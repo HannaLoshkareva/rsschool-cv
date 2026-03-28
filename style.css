@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;      
+  }
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: #686868;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{  
+    display: flex;
+    flex-direction: column; 
+    background-color: #429FB3;           
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;               
+}
+
+.nav-bar{
+    background-color: white;
+    display: flex;    
+}
+
+.decoration{
+    background-color: #B35642;
+    margin-left: 3.4em;
+    width: 550px;
+}
+
+.nav-bar ul{  
+    background-color: #333;
+    width: 100%;       
+}
+
+.nav-bar li{
+    display: inline;    
+}
+
+.nav-bar li a {    
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    float: right;    
+}
+
+.nav-bar li a:hover {
+    background-color: #B35642;
+}
+
+.avatar{
+    display: flex;    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+
+.name h1{
+    font-size: 50px;
+}
+
+.name p{
+    font-size: 30px;
+}
+
+img{    
+    height: 24em;
+    margin: 0 3.4em;          
+}
+
+main{
+    display: flex;
+    justify-content:space-between;      
+}
+
+.container{    
+    font-size: 18px;
+}
+
+.left{
+    padding-left: 30px;
+    background-color: #B35642;
+    margin: 0 3em;
+    width: 500px;
+    color: #381a14;
+}
+
+.left h2 {
+    color: #E8CCC6;
+    border-bottom: 3px solid #E8CCC6;
+    text-align: center;
+    margin-right: 1.5em;
+    font-size: 1.2em;
+}
+
+.fa{
+    padding-right: 10px;
+    color: #381a14;    
+}
+
+.contacts li{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.contacts li a{
+    text-decoration: none;        
+}
+
+.contacts li a:link{    
+    color: #381a14;        
+}
+
+.contacts li a:hover{    
+    color: #E8CCC6;        
+}
+
+.contacts li a:visited{    
+    color: #381a14;        
+}
+
+.education-content p{
+    text-align: right;
+    padding-right: 1.5em;    
+}
+
+.material-icons{
+    padding-right: 20px;
+}
+
+.final-project a:link{       
+    color: #333;        
+}
+
+.final-project a:hover{    
+    color: #E8CCC6;        
+}
+
+.final-project a:visited{    
+    color: #333;        
+}
+
+.final-project-image{
+    position: relative;
+    margin: 0;    
+    height: 260px;
+    padding: 10px 20px 0 0;
+}
+
+.languages-list{
+    padding-left: 20px;
+}
+
+.tooltip {
+    display: inline-block;
+    position: relative;  
+    padding: 15px 0 15px 10px;
+    margin: 5px 0 10px 5px;        
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #381a14;
+    color: #fff;    
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.right{
+    padding-right: 2em;
+    margin-bottom: 20px;
+}
+
+.right h2{
+    color:#B35642;
+    border-bottom: 3px solid #B35642;
+    padding-left: 20px;
+    font-size: 1.2em;  
+}
+
+.skill-type div{    
+    display: inline;
+}
+
+.skills-stars{
+    color:#429FB3;   
+}
+
+.html{
+    margin-left: 50px;
+}
+
+.js{
+    margin-left: 180px;
+}
+
+.git{
+    margin-left: 250px;
+}
+
+.photoshop{
+    margin-left: 248px;
+}
+
+.os{
+    margin-left: 95px;
+}
+
+.editors{
+    margin-left: 30px;
+}
+
+.code-example{
+    background-color: #F7EEEC;
+}
+
+footer{    
+    display: flex;    
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: white;
+    margin: 0;
+    padding: 0 3.5em;
+}
+
+.year-create{
+    font-size: 30px;    
+}
+
+.rs-course img, .git-link img{    
+    height: 80px;    
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-around;    
+    width: 60%;
+}
